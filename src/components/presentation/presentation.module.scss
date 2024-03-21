@@ -1,0 +1,20 @@
+.welcome-msg, .age-msg {
+    margin: 0px;
+}
+
+.welcome-msg{
+
+    font-size: 1.3rem;
+
+    .target {
+        color: crimson;
+    }
+}
+
+.age-msg {
+    font-size: 1.2 rem;
+
+    .target {
+        color: aqua;
+    }
+}

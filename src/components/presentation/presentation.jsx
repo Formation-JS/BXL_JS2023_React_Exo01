@@ -1,9 +1,14 @@
 import PropTypes from 'prop-types';
+import style from './presentation.module.scss';
 
 const Presentation = ({name, age}) => (
     <>
-        <p>Bienvenue {name} sur l'application React !</p>
-        <p>Vous avez {age} ans</p>
+        <p className={style['welcome-msg']}>
+            Bienvenue <span className={style['target']}>{name}</span> sur l'application React !
+        </p>
+        <p className={style['age-msg']}>
+            Vous avez <span className={style['target']}>{age} ans</span>
+        </p>
     </>
 );
 
